@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+.carousel .carousel-item {
+  height: 650px;
+}
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.about-us {
+  text-align: left;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #073042ff;
+  color: aliceblue;
+}
+.about-us-heading {
+  font-size: 4.5em;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.about-us .p {
+  font-size: 16px;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  font-weight: 600;
+}
+#testimonials .carousel-item {
+  padding: 10% 15% !important;
+}
+
+.testimonial-text {
+  padding-top: 40px;
+  color: #073042ff;
+  font-weight: 900;
+}
+#testimonials h2 {
+  line-height: 1.5 !important;
+  /* font-family: "Montserrat", sans-serif; */
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem !important;
+}
+.carousel-caption {
+  bottom: 325px;
+}
+.carousel-caption h1 {
+  font-weight: 700;
+  font-size: 4.5em;
+  color: #073042ff;
+}
